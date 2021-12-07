@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page -Junhao Jiang's Assignment4 </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="container  navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <h1>AJ'Website</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsmenu"
+                aria-controls="navbarsmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsmenu">
+                <ul class="navbar-nav nav-pills ml-auto h5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photos.html">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+    <section class="container">
+        <img class=" img-fluid mt-1" src="./img/banner.jpg" alt="">
+    </section>
+
+    <main class="container ">
+        <div class="row m-4">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/img1.jpg" alt="John" style="height: 260px;">
+                    <div class="container">
+                        <h1>Aaron</h1>
+                        <p class="title">Student</p>
+                        <p>Wilfrid Laurier University</p>
+                        <div style="margin: 24px 0;">
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </div>
+                        <p><button><a href="./Contact.html">Contact</a> </button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 mt-4">
+                <h1 class=" text-primary">About Me</h1>
+                <p style="font-size: 20px; line-height: 60px;">
+                    I’m Junhao Jiang, you can also call me Aaron.
+                    I am a second-year student at Wilfrid Laurier University.
+                    And I have just transferred to User Experience Design this year.
+                    In the first year, I studied Business and Technology Management. UX is a totally new area for me. I
+                    like it very much. Compared with the rigid knowledge in BTM, I prefer the study environment here. A
+                    lot of the content in the class is inspiring. It will not tell you what you have to do it. Is use
+                    what you could or should do it instead. <a class=" " href="./about.html">learn more..</a></p>
+
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="row m-4">
+
+            <div class="col-md-12">
+                <h2 class=" text-primary m-4 text-center ">My Angle</h2>
+                <p>
+                    By studying this course, I started my road of making a website. The website is still a bit
+                    difficult for me. The main reason is the lack of inspiration. I don't know how to design and plan
+                    the website, let alone how to design the user experience. My learning path needs to work harder. I
+                    learned the basics of websites such as html, css, JavaScript, and became familiar with some codes
+                    and various element tags. I slowly wrote the first line of code in Visual Studio Code, and completed
+                    the entire website on github last time through the domain name. Accessibility is also the result of
+                    my learning. Thank you for your teacher's guidance and classmates' help. But the webpage I made is
+                    just a baby who just learns to walk, and I still need to work harder on the road of web design.
+                </p>
+
+                <h2 class="  text-primary m-4 text-center ">References</h2>
+                <p> Sams teach yourself HTML and CSS in 24 hours ps Meloni - Sams - 2014</p>
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <p>@copy; <span id="current_year"></span> Junhao Jiang </p>
+    </footer>
+
+
+    <script>
+        $(function () {
+            var d = new Date();
+            var x = document.getElementById("current_year");
+            x.innerHTML = d.getFullYear();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+ 
+
+nav h1:hover{
+   color: #edf1f3;
+}
+        nav { 
+            color: #fff;
+            background-color: #333;
+            padding: 2px 30px;
+        }
+
+        nav li:last-child {
+            margin-right: 100px;
+        }
+
+        nav li {
+            padding: 2px 30px;
+            line-height: 100%;
+        }
+
+        nav li:hover {
+            background-color: #129ef5;
+            line-height: 100%;
+            padding: 2px 30px;
+        
+        }
+   nav li a:hover{
+    color: black;
+   }
+        p {
+            padding: 5px 0;
+        }
+
+        body { 
+            margin: 0 auto;
+            font-family: 'Roboto', sans-serif;  
+            color: #333;
+            background-color: #eee;
+        }
+      
+        footer {
+            margin: 5px auto;
+            color: #fff;
+            background-color: #333;
+            padding: 2px 30px;
+        }
+        footer p{
+        text-align: center;
+        }
+
+        section h2 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        section h3 {
+            font-family: 'Dancing Script', cursive;
+        } 
+
+        :root {
+            --header-background-color: rgb(133, 202, 21);
+            --header-foreground-color: Black;
+            --footer-background-color: rgb(10, 161, 73);
+            --footer-foreground-color: black;
+            --Nav-background-color: rgb(1, 2, 17);
+            --Nav-foreground-color: rgb(228, 46, 46);
+        }
+
+        header {
+            color: var(--header-foreground-color);
+            Background: var(--header--background-color);
+
+        }
+
+        nav {
+            color: var(--nav-foreground-color);
+            background-color: var(--nav-background-color) !important;
+        }
+
+
+ 
+
+        section h2 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        section h3 {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .formid {
+            border: 4px solid #55aaff;
+            width: 900px;
+            border-radius: 20px;
+
+            margin: 0 auto;
+        }
+
+        form {
+            width: 80%;
+            height: 600px;
+            margin: 0 auto;
+         
+            background-color: silver;
+            border-radius: 20px;
+        }
+
+        #formid input {
+            width: 300px;
+        }
+
+        .form-p {
+            display: block;
+            font-size: 24px;
+            background-color: silver;
+            padding: 22px;
+            margin: 4 auto;
+            color: black;
+            
+            border-radius: 10px;
+
+        }
+ 
+
+        #Message {
+            width: 500px;
+        }
+
+        footer {
+        margin: 40px auto 5px;
+        color: #fff;
+        background-color: #333;
+        padding: 2px 30px;
+    } 
+
+        .errorinfo {
+            visibility: hidden;
+            color: #DD4B39;
+            line-height: 18px;
+        }
+
+        .show {
+            visibility: visible
+        }
+
+        .redborder {
+            border: 1px solid #DD4B39
+        }
+.aboutme p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.photoimg img{
+    border-radius: 5%;
+    margin-top: 20px;
+}
+.photoimg img:hover{
+	box-shadow: 10px 10px 5px #888888;
+
+
+}
+p-2{
+    margin: 10px;
+}
