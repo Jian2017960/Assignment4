@@ -1,0 +1,2 @@
+## Research article
+The reason I chose this article is that I think this article is a good supplement to my goals. Basically, the main content of this article is to teach me how to set different goals and tell you what these goals's possible results. For example, after I work in the future, how to make my personal savings realize the effect of making money and help me realize the freedom of wealth as soon as possible without working.
