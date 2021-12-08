@@ -128,8 +128,7 @@ nav h1:hover{
         footer {
         margin: 40px auto 5px;
         color: #fff;
-        background-color: #333;
-        padding: 2px 30px;
+        background-color: #333; 
     } 
 
         .errorinfo {
@@ -162,3 +161,15 @@ nav h1:hover{
 p-2{
     margin: 10px;
 }
+
+ p{
+    text-align:left;
+    text-indent:2em;
+    padding-bottom:10px;
+    font-size: 20px; 
+    line-height: 50px;
+   }
+   
+   #submit{
+       align-self: end;
+   }
