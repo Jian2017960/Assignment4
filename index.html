@@ -22,8 +22,7 @@
             max-width: 300px;
             margin: auto;
             text-align: center;
-            font-family: arial;
-            
+            font-family: arial; 
         }
 
         .container {
@@ -41,7 +40,7 @@
 <body>
     <header>
 
-        <nav class="container  navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="container-fluid  navbar navbar-expand-md navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
                 <h1>AJ'Website</h1>
             </a>
@@ -110,31 +109,18 @@
 
         </div>
         <hr>
-        <div class="row m-4">
 
-            <div class="col-md-12">
-                <h2 class=" text-primary m-4 text-center ">My Angle</h2>
-                <p>
-                    By studying this course, I started my road of making a website. The website is still a bit
-                    difficult for me. The main reason is the lack of inspiration. I don't know how to design and plan
-                    the website, let alone how to design the user experience. My learning path needs to work harder. I
-                    learned the basics of websites such as html, css, JavaScript, and became familiar with some codes
-                    and various element tags. I slowly wrote the first line of code in Visual Studio Code, and completed
-                    the entire website on github last time through the domain name. Accessibility is also the result of
-                    my learning. Thank you for your teacher's guidance and classmates' help. But the webpage I made is
-                    just a baby who just learns to walk, and I still need to work harder on the road of web design.
-                </p>
-
-                <h2 class="  text-primary m-4 text-center ">References</h2>
-                <p> Sams teach yourself HTML and CSS in 24 hours ps Meloni - Sams - 2014</p>
-
-
-            </div>
-        </div>
     </main>
+
+
     <footer class="container-fluid">
-        <p>@copy; <span id="current_year"></span> Junhao Jiang </p>
+        <p>&copy; copy<span id="current_year"></span> Junhao Jiang </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js"></script>
 
 
     <script>
@@ -144,6 +130,8 @@
             x.innerHTML = d.getFullYear();
         });
     </script>
+
+ 
 </body>
 
 </html>
